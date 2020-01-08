@@ -5,4 +5,10 @@
     <TargetFramework>netcoreapp3.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="Robots\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Remove="Robot.cs" />
+  </ItemGroup>
 </Project>

@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using RobotController.Robots;
 
 namespace RobotController
 {
@@ -11,7 +12,7 @@ namespace RobotController
         //Topography array stores obstructions at given grid location
         public Obstructions[,] Topography { get; set; }
         //for multiple robots in map
-        public List<Robot> RobotsInGrid { get; set; }
+        public List<SimpleRobot> RobotsInGrid { get; set; }
 
         public void Display()
         {

@@ -26,6 +26,6 @@ Assumptions:
   and can not move to a location occupied by other robots.
 
 Extra Credit:
-. New types of Robots can be added using Robot base class.
+. New types of Robots can be added using IRobot interface.
 . New types of obstructions and their behaviours can be added by inheriting from obstructions base class.
 . Added code for multiple robots on the same grid
