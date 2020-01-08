@@ -1,9 +1,9 @@
 ﻿
 Instructions to Run the application:
 - Clone this git repo and open it using visual studio.
-- Build and Run 'RobotControllerApp_V1' Project. 
+- Build and Run 'RobotController' Project. 
 - There are two projects:
-1. RobotControllerApp_V1:
+1. RobotController:
    In main program(Program.cs), Grid of 10 rows and 10 columns is created and polpulated
    with list of obstructions to create the topography.
    Robot is created with id, starting coordinates and facing directions. 
@@ -12,7 +12,7 @@ Instructions to Run the application:
    New Robot and obstructions can be added in the main program.
    Single or multiple robots can be added to the grid. In case of multiple robots, only one robot can move at a given time.
    
-2. RobotControllerApp_UnitTests project:
+2. RobotController.UnitTests project:
    This project has unit tests for testing moves considering different obstructions scenarios.
    Also tests for multiple robots scenario.
 
